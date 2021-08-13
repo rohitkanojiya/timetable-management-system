@@ -1,0 +1,13 @@
+body{background-color:white;}
+
+div.main{height:auto; width:auto; border:2px solid blue;}
+
+div.top{height:15%; width:auto; border:2px dotted red; text-align:center;}
+
+div.top2{height:10%; width:auto; border:2px solid white;  background-color:gray; text-align:center;}
+
+div.center{height:60%; width:auto; border:2px dashed red; background-color:white; text-align:left;}
+
+div.bottom{height:10% width:auto; border:2px dotted white; background-color:gray; text-align:center;}
+
+font.a{color:white; font-family:times new roman; size:4; align:center;}
