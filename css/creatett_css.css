@@ -1,0 +1,206 @@
+/*for selectors*/
+#lbldiv{
+  margin-left: 25px;
+  color:red;
+}
+.lbldivc{
+  margin-left: 25px;
+  font-size:  20px;
+
+}
+#sel{
+  margin-left: 25px;
+}
+
+#sele{
+  margin-left: 25px;
+}
+.lbldivd{
+  margin-left: 25px;
+  width: 50px
+   font-size:  20px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.selectdiv{
+  margin-left: 25px;
+}
+
+
+/*table css*/
+#timetable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: separate;
+  width: 100%;
+}
+
+#timetable td, #timetable th {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 0px;
+}
+
+
+#timetable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+#timetable .res{
+  padding: 15px;
+}
+#edit{
+  text-decoration: none;
+  background-color: #4caf50;
+  padding: 15px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #4CAF50;
+  color: white;
+}
+label{
+  padding: 5px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+h2{
+  margin-top: 30px;
+  text-align: center;
+}
+h4{ text-align: center;
+  padding: 5px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 15px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  height: 60%;
+  width: 75%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: auto;
+}
+ 
+
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.table button:focus{
+    background:yellow;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  /*padding-left:  100px;*/
+  /*margin-top:  50px;*/
+  /*margin-left: 10px;  */
+  /*width: 50px;*/
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+ 
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+#submitbtn {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 15px 5px;
+  font-size: 15px;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+a:hover {
+  opacity: 0.8;
+}
+button:hover {
+  background-color: red;
+  opacity: 0.8;
+}
+.table button{
+  background-color: #f1f1f1;
+  border: none;
+  color: black;
+  width: 100%; 
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.divi:focus{
+  background-color: red;
+
+}
+.divi{
+  text-align: center;
+}
+select{
+    padding:5px;
+    margin: 5px;
+}
